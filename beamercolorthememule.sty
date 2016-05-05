@@ -14,7 +14,8 @@
   
 
 \ProvidesPackageRCS $Header: /cvsroot/latex-beamer/latex-beamer/themes/color/beamercolorthememule.sty,v 1.28 2007/01/28 20:48:24 tantau Exp $
-
+\RequirePackage{color}
+%\definecolor{mwhite}{gray}{0.01}
 
 
 \def\beamer@handy{handout}
@@ -73,7 +74,7 @@
 \setbeamercolor{example text}{fg=green!50!mblack}
 
 \setbeamercolor{structure}{fg=mblack, bg=mwhite}
-\setbeamerfont{structure}{textcolor=mwhite}
+%\setbeamerfont{structure}{textcolor=mwhite}
 
 \setbeamertemplate{background canvas}[vertical shading][bottom=mgray,top=mblack]
 \setbeamertemplate{title page}[default][rounded=true]
